@@ -21,7 +21,7 @@ function Dashboard() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <Suspense fallback={<p>Loading...</p>}>
+    <Suspense fallback={<p>Loading....</p>}>
       <Header />
       <DashboardModule />
     </Suspense>
